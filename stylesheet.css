@@ -42,6 +42,27 @@ ul {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden; }
+  .layer#layer-back {
+    position: absolute; 
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    left: 0px; 
+    top: 0px; 
+    -webkit-transform: translate3d(1.7857142857142867%, -2.936395759717309%, 0px); 
+    -webkit-transform-style: preserve-3d; 
+    -webkit-backface-visibility: hidden; }
+  .layer#layer-front {
+    position: absolute; 
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    left: 0px; 
+    top: 0px; 
+    -webkit-transform: translate3d(2.976190476190478%, -18.893992932862183%, 0px); 
+    -webkit-transform-style: preserve-3d; 
+    -webkit-backface-visibility: hidden;
+  }
 
 .background {
   background-color: #9be7f4;
